@@ -1,4 +1,4 @@
-# plantcare
+# Plantcare 🍃
 
 A new Flutter project.
 
