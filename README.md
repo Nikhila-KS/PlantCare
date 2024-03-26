@@ -1,4 +1,4 @@
-# Plantcare 🍃
+# hen_scan
 
 A new Flutter project.
 
