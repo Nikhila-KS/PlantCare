@@ -1,16 +1,27 @@
-# hen_scan
+# PlantCare🍃
+### Description
+PlantCare is a project dedicated to the detection of diseases in apple leaves using deep learning models. The best-performing model, which achieved high accuracy and compatibility for mobile application integration, has been incorporated into the Flutter app named PlantCare.
 
-A new Flutter project.
+### About the Dataset used to train Machine learning model
+The dataset utilized for training originates from the 'Plant Village Dataset', sourced from Kaggle. This dataset comprises 3366 images categorized into four classes:
 
-## Getting Started
+Apple__Apple_scrab (753 images)
+Apple__Black_rot (800 images)
+Apple__Cedar_Apple_rust (800 images)
+Apple__healthy (1145 images)
 
-This project is a starting point for a Flutter application.
+### Data Preprocessing
+To ensure compatibility with the Convolutional Neural Network (CNN) architecture, the following preprocessing steps were undertaken:
 
-A few resources to get you started if this is your first Flutter project:
+Resizing and standardizing images to a consistent size, such as 224x224 pixels.
+Augmentation of the dataset to enhance diversity and boost model generalization through random transformations, including rotations, flips, and brightness adjustments.
+Usage
+Run the Flutter application on your mobile device.
+Capture or select an image of an apple leaf.
+Submit the image for analysis.
+The application will provide feedback on whether the leaf is diseased and, if so, which disease it may have.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Contributors
+- Smita Maurya
+- Nikhila K S
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
